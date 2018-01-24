@@ -1,0 +1,18 @@
+{
+  "name": "gmg-adviser-qrload-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "env=PORT=3301 nodemon --inspect ./app.js",
+    "start": "pm2 start app.js --env PORT=3302" 
+  },
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.4.1",
+    "koa-router": "^7.3.0",
+    "koa2-cors": "^2.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  }
+}
