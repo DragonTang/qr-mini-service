@@ -2,6 +2,7 @@ const request = require('request')
 const { PassThrough } = require('stream')
 
 module.exports.getQr = (ctx, next) => {
+  console.log('qqqqqq')
   const { filename, url } = ctx.query
   if (filename && url) {
     ctx.set('Content-Disposition', `attachment; filename=${filename}`)

@@ -1,1 +1,2 @@
-http://192.168.33.149:3301/qr?filenam11e=qqaa.jpeg&url=https%3A%2F%2Fmp.weixin.qq.com%2Fcgi-bin%2Fshowqrcode%3Fticket%3DgQH28DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyd2N5ZmQxNFRmXzExMDAwME0wMzYAAgSVQWBaAwQAAAAA
+http://192.168.33.149:3301/qr?filename=qqaa.jpeg&url=https%3A%2F%2Fmp.weixin.qq.com%2Fcgi-bin%2Fshowqrcode%3Fticket%3DgQH28DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyd2N5ZmQxNFRmXzExMDAwME0wMzYAAgSVQWBaAwQAAAAA
+

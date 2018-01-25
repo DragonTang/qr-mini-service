@@ -4,7 +4,8 @@ const router = require('./router.js')
 
 const app = new Koa()
 app.use(cors())
-const { env } = process.env
-const PORT = env.split('=')[1] || 3000
+const { PORT } = process.env
+
 app.use(router.routes())
-app.listen(PORT)
+console.log(11111111)
+app.listen(PORT || 3000)   
