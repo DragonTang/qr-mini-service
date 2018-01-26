@@ -5,6 +5,7 @@ stages:
   - build
 
 before_script:
+  - echo 1234567
   - docker login -u $DAOCLOUD_USERNAME -p $DAOCLOUD_PASSWORD daocloud.io
 
 test:
