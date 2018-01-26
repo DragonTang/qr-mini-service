@@ -9,8 +9,6 @@ before_script:
 
 test:
   stage: test
-  tags:
-    - node7_docker_in_docker_18_80_yintech_upstream_4  
   script: echo 'test'
    
 build: 
@@ -18,8 +16,6 @@ build:
   only:
     - develop
     - master
-  tags:
-    - node7_docker_in_docker_18_80_yintech_upstream_4  
   script:
     - bash push-daocloud.sh 
 
