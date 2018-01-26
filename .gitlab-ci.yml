@@ -10,7 +10,7 @@ before_script:
 test:
   stage: test
   tags:
-    - gmg-adviser-qrload-service
+    - node-docker-gmg
   script: echo 'test'
    
 build: 
@@ -19,7 +19,7 @@ build:
     - develop
     - master
   tags:
-    - gmg-adviser-qrload-service
+    - node-docker-gmg
   script:
     - bash push-daocloud.sh 
 

@@ -1,6 +1,5 @@
 FROM node:latest
 
-
 MAINTAINER Elvis
 HEALTHCHECK --interval=5s --timeout=3s CMD curl --fail http://localhost:10003/ || exit 1
 RUN npm config set registry https://registry.npm.taobao.org
