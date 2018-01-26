@@ -1,17 +1,18 @@
 image: daocloud.io/baidao/node-docker:7
+
 stages:
   - test
   - build
+
+before_script:
+  - docker login -u $DAOCLOUD_USERNAME -p $DAOCLOUD_PASSWORD daocloud.io
 
 test:
   stage: test
   tags:
     - gmg-adviser-qrload-service
-  script:
+  script: echo 'test'
    
-before_script:
-  - docker login -u $DAOCLOUD_USERNAME -p $DAOCLOUD_PASSWORD daocloud.io
-
 build: 
   stage: build
   only:
