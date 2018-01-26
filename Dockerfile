@@ -9,4 +9,4 @@ WORKDIR /var/workspace
 COPY . /var/workspace
 RUN cnpm install
 EXPOSE 10003
-CMD ["npm", "run", "start-pro"]
+ENTRYPOINT ["npm", "run", "start-pro", "daemon off;"]
