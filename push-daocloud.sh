@@ -5,7 +5,7 @@ tag=$(date +%Y%m%d%H%M%S)
 imageName=gmg-adviser-qrload-service
 
 dcloudImage="registry.cn-shanghai.aliyuncs.com/ytx-zq/${imageName}:${tag}"
-dloudImage1="registry.cn-shanghai.aliyuncs.com/ytx-zq/${imageName}:latest"
+dcloudImage1="registry.cn-shanghai.aliyuncs.com/ytx-zq/${imageName}:latest"
 
 
 docker build -t ${imageName} .
