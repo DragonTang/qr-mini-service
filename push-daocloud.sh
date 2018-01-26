@@ -4,8 +4,8 @@ tag=$(date +%Y%m%d%H%M%S)
 
 imageName=gmg-adviser-qrload-service
 
-dcloudImage=${imageName}:${tag}
-dcloudImage1=${imageName}:latest
+dcloudImage=daocloud.io/baidao/${imageName}:${tag}
+dcloudImage1=daocloud.io/baidao/${imageName}:latest
 
 
 docker build -t ${imageName} .
