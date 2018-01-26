@@ -16,5 +16,5 @@ docker push ${dcloudImage}
 docker tag -f ${imageName} ${dcloudImage1}
 docker push ${dcloudImage1}
 
-
+echo '============ push success ============'
 
