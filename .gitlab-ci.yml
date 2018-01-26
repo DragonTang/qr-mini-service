@@ -9,13 +9,14 @@ before_script:
 
 test:
   stage: test
+  only:
+    - master
   script: echo 'test'
    
 build: 
   stage: build
   only:
-    - develop
-    - master
+    - pre-release
   script:
     - bash push-daocloud.sh 
 
