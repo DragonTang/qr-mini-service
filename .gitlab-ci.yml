@@ -1,0 +1,23 @@
+stages:
+  - test
+  - build
+
+test:
+  stage: test
+  tags:
+    - gmg-adviser-qrload-service
+  script:
+   
+
+build: 
+  stage: build
+  only:
+    - develop
+    - master
+    tags:
+      - gmg-adviser-qrload-service
+    script:
+      - bash push-aliyun.sh 
+
+
+
