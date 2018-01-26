@@ -5,13 +5,14 @@
   "scripts": {
     "dev": "PORT=10001 nodemon --inspect ./app.js",
     "start-dev": "PORT=10002 node app.js",
-    "start-pro": "PORT=10003 node app.js" 
+    "start-pro": "PORT=10003 node app.js"
   },
   "license": "MIT",
   "dependencies": {
     "koa": "^2.4.1",
     "koa-router": "^7.3.0",
-    "koa2-cors": "^2.0.5"
+    "koa2-cors": "^2.0.5",
+    "request": "^2.83.0"
   },
   "devDependencies": {
     "nodemon": "^1.14.11"

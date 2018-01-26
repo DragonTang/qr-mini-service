@@ -7,5 +7,4 @@ app.use(cors())
 const { PORT } = process.env
 
 app.use(router.routes())
-console.log(11111111)
 app.listen(PORT || 10005)   
