@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "PORT=3301 nodemon --inspect ./app.js",
-    "start": "PORT=3302 pm2 start app.js --name gmg-adviser-qrload-service",
-    "docker-start": "PORT=3303 pm2-docker start app.js" 
+    "dev": "PORT=10001 nodemon --inspect ./app.js",
+    "start-dev": "PORT=10002 node app.js",
+    "start-pro": "PORT=10003 node app.js" 
   },
   "license": "MIT",
   "dependencies": {
